@@ -24,7 +24,7 @@ def process_lines(queue, bot_number):
             break
 
         # Extract cc, month, year, and cvv
-        CNUBR, MONTH, YEAR, CVV = map(str.strip, line.split('|'))
+        4186464320011444, 06, 2028, 746 = map(str.strip, line.split('|'))
 
         CNUBRstr = str(CNUBR)
         montht = MONTH.replace('0',"")
